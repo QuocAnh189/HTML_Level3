@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-size: 16px;
+            font-family: sans-serif;
+        }
+
+        * {
+             padding: 0;
+             margin: 0;
+             border: none;
+        } 
+
+        p {
+            color: white;
+            max-width: 30rem;
+            margin-bottom: 10px;
+        }
+
+        span {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .left {
+            flex-grow: 2;
+            background-color: black;
+        }
+
+        .space {
+            height: 100vh;
+            width: 1px;
+            background-color: white;
+        }
+
+        .right {
+            flex-grow: 1;
+            background-color: red;
+        }
+
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            background-color: black;
+        }
+
+        .nolineway {
+            margin-bottom: 0;
+        }
+
+        .info {
+            margin-bottom: 0;
+            font-size: 1.2em;
+            font-weight: 800;
+        }
+
+        .textlong {
+            max-width: 32rem;
+        }
+
+        .textfooter {
+            margin-top: 100px;
+        }
+
+
+     </style>
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+            <img src="./images/banner.gif"/ style="width: 50rem;">
+            <p>Excite@Home <span>Reduces workforce</span> as oprration wind down.</p>
+
+            <p class="nolineway">Excite@Home Announces AT&T <span>Termination of Pending Asset Purchase</span></p>
+            <p><span>Agreement</span> and Transition Agrement with Several Cable Companies</p>
+
+            <p><span>Archived press release</span></p>
+            
+            <p class="info">Vendor Information:</p>
+            <p>Exciter@Home has established aVendor Information Hotline to answer
+                questions you may have regarding the company's recent filing for
+                reorganization.For information,please call(650)556-2868 or email
+                <span>Vendor_Commuication@excitehome.net.</span></p>
+            <img src="./images/@work.gif" style="width: 7rem;"/>
+            <p class="textlong"><span>http://Work.home.net/</span> with high-speed,fully managed data services designed
+                to meet the demand for superior,reliable,and secure network communications.</p>
+            
+            <p class="textfooter textlong">Copyright � 1995-2002At Home Corporation.All Right Reserverd . @ Home,Excite@Home,@Work,Excite,and 
+                <img src="./images/@.gif"/>are the trademarks of At Home Corporation , and may be registerd in 
+                certain jurisdictions.<span>Legal Notices.</span>
+            </p>
+        </div>
+        <div class="left"></div>
+        <div class="space"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
